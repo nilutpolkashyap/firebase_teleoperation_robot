@@ -1,0 +1,6 @@
+<launch>
+	<node name="professor" pkg="college" type="professor.py" output="screen"/>
+	<node name="zoom_class" pkg="college" type="zoom_class.py" output="screen"/>
+	<node name="student1" pkg="college" type="student1.py" output="screen"/>
+	<node name="student2" pkg="college" type="student2.py" output="screen"/>
+</launch>

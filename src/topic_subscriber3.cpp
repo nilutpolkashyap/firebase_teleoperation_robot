@@ -14,4 +14,5 @@ int main(int argc, char **argv)
 	ros::Subscriber subscriber = nh.subscribe("/float_data",1000,floatcallback);
 	ros::spin();
 	return 0;
+	
 }

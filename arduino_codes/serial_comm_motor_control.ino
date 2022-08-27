@@ -38,6 +38,14 @@ void loop() {
   int direction = receivedChar.toInt();
   Serial.println(direction);
 
+  if(direction == 0)
+  {
+    setMotorDirection( M1, Forward );
+    setMotorDirection( M2, Forward );
+    setMotorSpeed( M1, 0 );
+    setMotorSpeed( M2, 0 );
+  }
+  
   if(direction == 1)
   {
     setMotorDirection( M1, Forward );
@@ -50,6 +58,22 @@ void loop() {
   {
     setMotorDirection( M1, Backward );
     setMotorDirection( M2, Backward );
+    setMotorSpeed( M1, 100 );
+    setMotorSpeed( M2, 100 );
+  }
+  
+  if(direction == 3)
+  {
+    setMotorDirection( M1, Forward );
+    setMotorDirection( M2, Backward );
+    setMotorSpeed( M1, 100 );
+    setMotorSpeed( M2, 100 );
+  }
+  
+  if(direction == 4)
+  {
+    setMotorDirection( M1, Backward );
+    setMotorDirection( M2, Forward );
     setMotorSpeed( M1, 100 );
     setMotorSpeed( M2, 100 );
   }

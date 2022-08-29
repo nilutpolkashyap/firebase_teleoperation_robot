@@ -1,3 +1,3 @@
-# firebase_telepresence_robot
+# firebase_teleoperation_robot
 
 

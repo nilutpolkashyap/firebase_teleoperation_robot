@@ -2,8 +2,8 @@
 Servo Myservo1;
 Servo Myservo2;
 Servo Myservo3;
-Servo Myservo4;
-Servo Myservo5;
+// Servo Myservo4;
+// Servo Myservo5;
 
 int pos;
 void setup()
@@ -12,8 +12,8 @@ void setup()
 Myservo1.attach(A0);
 Myservo2.attach(A1);
 Myservo3.attach(A2);
-Myservo4.attach(A3);
-Myservo5.attach(A4);
+// Myservo4.attach(A3);
+// Myservo5.attach(A4);
 }
 
 void loop()
@@ -24,8 +24,8 @@ for(pos=0;pos<=180;pos++){
 Myservo1.write(pos);
 Myservo2.write(pos);
 Myservo3.write(pos);
-Myservo4.write(pos);
-Myservo5.write(pos);
+// Myservo4.write(pos);
+// Myservo5.write(pos);
 delay(15);
 }
 //  delay(1000);
@@ -34,8 +34,8 @@ delay(15);
 Myservo1.write(pos);
 Myservo2.write(pos);
 Myservo3.write(pos);
-Myservo4.write(pos);
-Myservo5.write(pos);
+// Myservo4.write(pos);
+// Myservo5.write(pos);
 delay(15);
 }
 //  delay(1000);

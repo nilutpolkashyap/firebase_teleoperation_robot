@@ -27,12 +27,12 @@ void setup() {
 
 void loop() {
   int value;
-  /**test M1 & M2 **/
+    /**test M1 & M2 **/
   setMotorDirection( M1, Forward );
   setMotorDirection( M2, Forward );
   setMotorSpeed( M1, 100 );
   setMotorSpeed( M2, 100 );
-  delay(1000);
+  delay(3000);
   setMotorSpeed( M1, 0 );
   setMotorSpeed( M2, 0 );
   delay(100);
@@ -41,7 +41,25 @@ void loop() {
   setMotorDirection( M2, Backward );
   setMotorSpeed( M1, 100 );
   setMotorSpeed( M2, 100 );
-  delay(1000);
+  delay(3000);
+  setMotorSpeed( M1, 0 );
+  setMotorSpeed( M2, 0 );
+  delay(100);
+
+  setMotorDirection( M1, Forward );
+  setMotorDirection( M2, Backward );
+  setMotorSpeed( M1, 100 );
+  setMotorSpeed( M2, 100 );
+  delay(3000);
+  setMotorSpeed( M1, 0 );
+  setMotorSpeed( M2, 0 );
+  delay(100);
+
+  setMotorDirection( M1, Backward );
+  setMotorDirection( M2, Forward );
+  setMotorSpeed( M1, 100 );
+  setMotorSpeed( M2, 100 );
+  delay(3000);
   setMotorSpeed( M1, 0 );
   setMotorSpeed( M2, 0 );
   delay(100);

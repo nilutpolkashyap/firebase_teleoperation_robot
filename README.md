@@ -1,5 +1,5 @@
 # firebase_teleoperation_robot
-# Internet Controlled Teleoperation Robot using Rasberry Pi
+# Internet Controlled Teleoperation Robot using Raspberry Pi
 
 ## Project presented at - Techniche Tech Expo (https://techniche.org/techexpo) at Indian Institute of Technology, Guwahati
 
